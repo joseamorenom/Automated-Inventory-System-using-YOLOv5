@@ -1,0 +1,4 @@
+backpack
+fan
+podium
+chair
