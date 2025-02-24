@@ -50,8 +50,9 @@ Ensure your dataset is organized as shown above in the processed_dataset folder 
 ## Usage
 Training the Model
 From the yolov5 directory, run the following command to train the model:
-
+```bash
 python train.py --img 640 --batch 16 --epochs 50 --data "../processed_dataset/dataset.yaml" --weights yolov5s.pt --workers 0
+```
 - --img 640: Resizes images to 640x640 pixels.
 - --batch 16: Batch size of 16.
 - --epochs 50: Train for 50 epochs.
